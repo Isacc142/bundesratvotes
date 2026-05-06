@@ -1,0 +1,30 @@
+# State source list for newest-PDF scraping.
+#
+# Preferred format per line:
+#   state_name,https://state-page.example/path
+#   -> the URL value can be passed directly to get_html_from_url(...)
+# Optional adapter override:
+#   state_name,https://state-page.example/path,adapter_key
+#
+# Legacy fallback (still supported):
+#   https://state-page.example/path
+#
+# Blank lines and lines starting with '#' are ignored.
+
+bundesrat,https://www.bundesrat.de/DE/service/archiv/to-archiv/to-archiv-node.html
+baden-wuerttemberg,https://stm.baden-wuerttemberg.de/de/vertretung-beim-bund/bundesrat/bundesratsinitiativen-und-abstimmungsverhalten/
+bayern,https://www.bayern.de/staatskanzlei/bayern-in-berlin/
+berlin,https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/der-bundesrat/abstimmungsverhalten-des-landes-berlin-im-bundesrat-1616084.php
+brandenburg,http://landesvertretung-brandenburg.de/abstimmungsverhalten-im-bundesrat/
+bremen,https://www.derbevollmaechtigte.bremen.de/sixcms/detail.php?gsid=bremen32b.c.21671.de
+hamburg,https://www.hamburg.de/landesvertretung/abstimmungsverhalten/
+hessen,https://staatskanzlei.hessen.de/Berlin-Europa-und-die-Welt/Hessen-in-Berlin/Hessen-in-Berlin/Bundesrat
+mecklenburg-vorpommern,https://www.regierung-mv.de/Landesregierung/wkm/Landesvertretung/Unsere-Aufgaben/Abstimmung/
+niedersachsen,https://www.niedersachsen.de/politik_staat/bundesrat/abstimmungsverhalten_niedersachsen_im_bundesrat/abstimmungsverhalten-niedersachsen-im-bundesrat-157696.html
+nordrhein-westfalen,https://mbeim.nrw/nrw-beim-bund/nordrhein-westfalen-im-bundesrat/wie-stimmte-nrw-im-bundesrat-ab
+rheinland-pfalz,https://open.rlp.de/de/suchergebnisse?q=%22sitzung+des+bundesrates%22&sort=newest
+saarland,https://www.saarland.de/lvsaarland/DE/bundesrat/br-beschluesse
+sachsen,https://www.landesvertretung.sachsen.de/Bundesrat.html
+sachsen-anhalt,https://lv.sachsen-anhalt.de/bundesrat/aktuell/
+schleswig-holstein,https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LVB/Aufgaben/Bundesratsarbeit/bundesratsarbeit_node.html
+thueringen,https://thueringen.de/bundesrat
