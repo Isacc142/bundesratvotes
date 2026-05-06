@@ -2,7 +2,8 @@
 #
 # Preferred format per line:
 #   state_name,https://state-page.example/path
-#   -> the URL value can be passed directly to get_html_from_url(...)
+#   -> output file will be: html_files/state_name.html
+#   -> the URL value can be passed directly to the scraper URL reader
 # Optional adapter override:
 #   state_name,https://state-page.example/path,adapter_key
 #
@@ -10,6 +11,7 @@
 #   https://state-page.example/path
 #
 # Blank lines and lines starting with '#' are ignored.
+# If one URL fails during batch fetch, it is logged and skipped.
 
 bundesrat,https://www.bundesrat.de/DE/service/archiv/to-archiv/to-archiv-node.html
 baden-wuerttemberg,https://stm.baden-wuerttemberg.de/de/vertretung-beim-bund/bundesrat/bundesratsinitiativen-und-abstimmungsverhalten/
